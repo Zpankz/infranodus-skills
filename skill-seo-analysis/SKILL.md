@@ -65,13 +65,17 @@ Summarize actionable insights:
 
 After providing the analysis result, ask the user to provide a URL or content they'd like to optimize with this analysis. Alternatively, offer them to write a SEO-friendly, human-sounding article after they provide you with some reference using the writing-assistant tool.
 
+### Step 6: Structural Semantic Optimization
+
+Advise the user what HTML structure, meta-data, and header hierarchies they can use to align with the insights obtained from the SEO report above. Provide ideas which tags, menu elements, and additional markup could be added to ensure that the page contains structured information related to the optimized topic.
+
 ## Content Analysis Workflow
 
 When user provides a document or website URL:
 
 ### Step 1: Extract Content
 
-**For websites**: Crawl top 10 pages from the site via Google results. Extract main content from each page.
+**For websites**: Crawl the URL provided and extract the main content from this page.
 
 **For documents**: Extract full text content from uploaded file.
 
@@ -87,7 +91,11 @@ If tool unavailable: Fall back to Topic Analysis Workflow:
 - Identify which existing keywords are relevant
 - Recommend new keywords to target
 
-### Step 3: Deliver Report
+### Step 3: Structural Semantic Optimization
+
+Advise how the HTML structure of the original document (or website) could be optimized to align with the insights obtained from the SEO report above. Provide ideas which tags, menu elements, and additional markup could be added to ensure that the page contains structured information related to the optimized topic.
+
+### Step 4: Deliver Report
 
 Present:
 
