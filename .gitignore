@@ -1,1 +1,7 @@
 .DS_Store
+.source-repos/
+mcp-server-infranodus/
+infranodus-obsidian-plugin/
+infranodus-vscode-extension/
+n8n-infranodus-workflow-templates/
+skills/
