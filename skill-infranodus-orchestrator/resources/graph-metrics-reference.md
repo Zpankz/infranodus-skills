@@ -112,4 +112,3 @@ Partitioned: dotGraphByCluster separates by community
 | Diversity score | Low | Moderate | High | Chaotic |
 | Narrative coherence | Single thread | Clear arc | Multiple arcs | No arc |
 | Creative potential | Implementation | Refinement | Cross-pollination | Maximum generation |
-```

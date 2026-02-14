@@ -82,5 +82,5 @@ Need to analyze content?
 
 ## Port Connections
 - **Depends on**: `← core/types.md` `← core/api-reference.md` `← core/graph-analytics.md`
-- **Consumed by**: `→ modules/cognitive-variability.md` `→ modules/ontology-creator.md` `→ modules/seo-analysis.md`
+- **Consumed by**: `→ modules/cognitive-variability.md` `→ modules/ontology-creator.md` `→ modules/writing-assistant.md` `→ modules/seo-analysis.md`
 - **Bridged via**: `→ bridges/skill-tool-map.md`

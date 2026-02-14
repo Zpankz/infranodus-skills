@@ -1,6 +1,6 @@
 # Progressive Loading Strategy — Context Engineering
 
-> **Layer**: 5 (Script) | **Dependencies**: `scripts/dag-traversal.md`
+> **Layer**: 5 (Script) | **Companion**: `scripts/dag-traversal.md` (same-layer peer)
 > **Tags**: `#script` `#loading` `#context` `#optimization`
 
 ## Loading Tiers
@@ -108,7 +108,7 @@ Total:                      ~27KB
 
 ### Maximum (All Modules — Rare)
 ```
-All 35 files loaded          ~60KB
+All 38 files loaded          ~60KB
 Scenario: Complex multi-skill orchestration with handoffs
 ```
 

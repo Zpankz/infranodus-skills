@@ -114,7 +114,7 @@ Bridges: Only loaded when inter-module routing is triggered
 12. modules/search-discovery    (deps: 1, 5)
 13. modules/cognitive-variability(deps: 1, 3, 6, 7, 8)
 14. modules/critical-perspective (deps: 1, 7, 8, 9)
-15. modules/writing-assistant   (deps: 1, 4, 7, 10)
+15. modules/writing-assistant   (deps: 1, 4, 6, 7, 10)
 16. modules/ontology-creator    (deps: 1, 2, 6, 11, 12)
 17. modules/seo-analysis        (deps: 1, 6, 7, 9, 10)
 18. bridges/skill-tool-map      (deps: 6-17)

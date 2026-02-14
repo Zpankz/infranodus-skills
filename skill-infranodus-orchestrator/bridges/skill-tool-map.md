@@ -87,7 +87,7 @@ This bridge file maps every skill module to the InfraNodus MCP tools it uses. It
 ## Tool Categories Quick Reference
 | Category | Tools | Count |
 |----------|-------|-------|
-| Graph Generation | generate_knowledge_graph, create_knowledge_graph, analyze_existing_graph, generate_contextual_hint, retrieve_from_knowledge_base | 5 |
+| Graph Generation | generate_knowledge_graph, create_knowledge_graph, analyze_existing_graph_by_name, generate_contextual_hint, retrieve_from_knowledge_base | 5 |
 | Content Analysis | generate_content_gaps, generate_topical_clusters, develop_text_tool | 3 |
 | Research | generate_research_questions, generate_research_ideas, research_questions_from_graph, develop_latent_topics, develop_conceptual_bridges, generate_responses_from_graph | 6 |
 | Comparative | overlap_between_texts, difference_between_texts | 2 |

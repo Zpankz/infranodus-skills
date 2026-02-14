@@ -11,7 +11,7 @@ Measures how well a graph decomposes into distinct clusters.
 - **Optimal for creativity**: 0.3–0.6 (multiple distinct but connected clusters)
 - **Too low** (<0.2): Ideas are undifferentiated, lacks structure
 - **Too high** (>0.7): Ideas are siloed, lacks cross-pollination
-- **Cognitive mapping**: Low modularity ≈ Focused state; High modularity ≈ Diversified state
+- **Cognitive mapping**: Very low (<0.2) ≈ Biased; Low-moderate (0.2–0.4) ≈ Focused; Moderate-high (0.4–0.7) ≈ Diversified; Very high/fragmented (>0.7) ≈ Dispersed
 
 ### Betweenness Centrality (BC)
 Measures how much a node bridges different parts of the network.

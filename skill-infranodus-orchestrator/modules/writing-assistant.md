@@ -1,6 +1,6 @@
 # Writing Assistant Module
 
-> **Layer**: 3 | **Dependencies**: `core/types.md`, `core/text-processing.md`, `modules/content-analysis`, `modules/seo-tools`
+> **Layer**: 3 | **Dependencies**: `core/types.md`, `core/text-processing.md`, `modules/graph-generation`, `modules/content-analysis`, `modules/seo-tools`
 > **Dependents**: `bridges/pattern-detection-bridge`, `bridges/workflow-orchestrator`
 > **Tags**: `#skill` `#writing` `#grammar` `#patterns` `#sensory-system` `#neural`
 
@@ -65,7 +65,7 @@ This module acts as the sensory layer of the skill ecosystem. During grammar cor
 ## Workflow
 1. **Correct** grammar and spelling, noting patterns during correction
 2. **Detect** patterns as triggers for deeper analysis
-3. **Assess** topical structure if patterns suggest imbalance (via `generate_text_overview`)
+3. **Assess** topical structure if patterns suggest imbalance (via `generate_knowledge_graph` with `includeGraphSummary: true`)
 4. **Identify** development opportunities for sections with error clusters (via `develop_text_tool`)
 5. **Check** external alignment if relevant (via `generate_seo_report`)
 6. **Provide** integrated feedback — corrected text + pattern insights
@@ -102,6 +102,6 @@ For substantial texts needing strategic improvement:
 | Underdeveloped themes | No | Develop via gap analysis |
 
 ## Port Connections
-- **Depends on**: `← core/types.md` `← core/text-processing.md` `← modules/content-analysis` `← modules/seo-analysis`
+- **Depends on**: `← core/types.md` `← core/text-processing.md` `← modules/graph-generation` `← modules/content-analysis` `← modules/seo-tools`
 - **Sends signals to**: `→ bridges/pattern-detection-bridge.md` (pattern → cognitive state mapping)
 - **Orchestrated by**: `← bridges/workflow-orchestrator.md`

@@ -68,7 +68,10 @@ statistics:
     too_focused_on_top_nodes: boolean
     too_focused_on_top_clusters: boolean
     top_nodes_entropy: number
+    ratio_of_top_nodes_influence_by_betweenness: number
+    ratio_of_top_cluster_influence_by_betweenness: number
     total_clusters: number
+    fair_influence_by_cluster: number
 graphSummary: string             # AI-generated overview
 contentGaps: string[]            # Structural gaps between clusters
 mainTopicalClusters: string[]    # Named topic groups

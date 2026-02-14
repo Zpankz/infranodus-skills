@@ -85,7 +85,9 @@ statistics:
   nodeCount: number
   edgeCount: number
   diversityStats: { diversity_score, too_focused_on_top_nodes, too_focused_on_top_clusters,
-                    top_nodes_entropy, total_clusters, fair_influence_by_cluster }
+                    top_nodes_entropy, ratio_of_top_nodes_influence_by_betweenness,
+                    ratio_of_top_cluster_influence_by_betweenness, total_clusters,
+                    fair_influence_by_cluster }
 graphSummary: string
 contentGaps: string[]
 mainTopicalClusters: string[]
