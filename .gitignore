@@ -5,3 +5,4 @@ infranodus-obsidian-plugin/
 infranodus-vscode-extension/
 n8n-infranodus-workflow-templates/
 skills/
+__pycache__/
