@@ -3,7 +3,7 @@
 This collection of skills is based on the [InfraNodus cognitive variability](https://infranodus.com/about/cognitive-variability) framework that is implemented in [InfraNodus](https://infranodus.com) text analysis tool.
 Use the skills as extended prompts in Claude Web or in your favorite LLM client. They will augment the capacities of the model and help you introduce custom logic, frameworks, workflows, and guidelines into the model's behavior.
 
-The skills are designed to work with each other and to hand off important tasks when needed. They are also integrated with the [InfraNodus MCP Server](https://github.com/infranodus/mcp-server-infranodus) tools, so you can use advanced text gap analysis, SEO optimization, and knowledge graph memory in your workflows.
+The skills are designed to work with each other and to hand off important tasks when needed. They are also integrated with the [InfraNodus MCP Server](https://infranodus.com/mcp) tools, so you can use advanced text gap analysis, SEO optimization and data import, and knowledge graph memory in your workflows.
 
 ## Skills Available
 
@@ -14,6 +14,8 @@ The skills are designed to work with each other and to hand off important tasks 
 - **Writing Assistant** - Grammar correction, style refinement, and pattern detection that can trigger cognitive state analysis.
 
 - **Ontology Creator** - Build structured ontologies, taxonomies, and knowledge graphs by extracting entities, defining relationships, and mapping conceptual structures for any topic or for a collection of texts.
+
+- **SEO Analysis** - Perform advanced SEO analysis to study the current informational supply and demand for a topic. Build your topical authority and create content that covers the important concepts and bridges the market gaps. Suitable for SEO and LLMO. Uses [InfraNodus MCP server](https://infranodus.com/mcp) search intent and results import functionalities.
 
 ## Installation
 
