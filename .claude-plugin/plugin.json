@@ -1,0 +1,24 @@
+{
+  "name": "infranodus",
+  "version": "2.0.0",
+  "description": "InfraNodus skill ecosystem: cognitive variability, critical perspective, writing assistant, ontology creator, SEO analysis — unified by a modular orchestrator with 25 MCP tools, cognitive state management, and graph analytics.",
+  "author": {
+    "name": "InfraNodus",
+    "url": "https://github.com/infranodus"
+  },
+  "homepage": "https://infranodus.com",
+  "repository": "https://github.com/infranodus/skills",
+  "license": "MIT",
+  "keywords": [
+    "infranodus",
+    "knowledge-graph",
+    "cognitive-variability",
+    "critical-thinking",
+    "writing-assistant",
+    "ontology",
+    "seo",
+    "graph-analytics",
+    "mcp"
+  ],
+  "skills": "./"
+}

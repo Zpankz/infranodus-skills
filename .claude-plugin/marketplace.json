@@ -1,0 +1,36 @@
+{
+  "name": "infranodus-skills",
+  "owner": {
+    "name": "InfraNodus",
+    "email": "support@infranodus.com"
+  },
+  "metadata": {
+    "description": "InfraNodus cognitive skill ecosystem for Claude Code",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "infranodus",
+      "source": "./",
+      "description": "Complete InfraNodus skill ecosystem with orchestrator, cognitive variability, critical perspective, writing assistant, ontology creator, and SEO analysis.",
+      "version": "2.0.0",
+      "author": {
+        "name": "InfraNodus"
+      },
+      "homepage": "https://infranodus.com",
+      "repository": "https://github.com/infranodus/skills",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "knowledge-graph",
+        "cognitive-variability",
+        "critical-thinking",
+        "writing",
+        "ontology",
+        "seo",
+        "graph-analytics"
+      ],
+      "skills": "./"
+    }
+  ]
+}
